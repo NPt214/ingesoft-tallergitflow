@@ -17,12 +17,26 @@ La técnica que se llevara a cabo será la **Análisis de Valor Limite**, debido
 ## 4. Casos de Prueba Diseñados
 
 | ID Caso |  Descripción   |    Entrada     |              Resultado Esperado                 | 
+
+
 |---------|----------------|----------------|-------------------|-----------------------------|
+
+
 | CP-01 |  Dato a evaluar por debajo del rango   | 15 | Invalida, edad no dentro del rango |
+
+
 | CP-02 |  Dato a evaluar en el limite inferior  | 16 | Valida, edad dentro del rango |
+
+
 | CP-03 |  Dato a evaluar dentro del rango       | 40 | Valida, edad dentro del rango |
+
+
 | CP-04 |  Dato a evaluar en el limite superior  | 65 | Valida, edad dentro del rango |
+
+
 | CP-05 |  Dato a evaluar por encima del rango   | 90 | Invalida, edad no dentro del rango |
+
+
 |---------|----------------|----------------|-------------------|-----------------------------|
 
 ## 5. Trazabilidad
